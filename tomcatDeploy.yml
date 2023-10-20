@@ -14,7 +14,7 @@
 
   - name: download war file
     ansible.builtin.get_url:
-      url: http://51.20.134.123:8081/artifactory/webapp/#/artifacts/browse/tree/General/test/webapp-11.war
+      url: https://kushalan.jfrog.io/artifactory/local/webapp-7.war
       dest: /home/tomcat/sourcefile/webapp.war
       username: admin
       password: Kushal@123
